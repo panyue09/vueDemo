@@ -77,7 +77,7 @@ export default {
 
   .le {
     position: absolute;
-    bottom: -545px;
+    bottom: -30px;
     left: 40%;
     cursor:pointer;
   }

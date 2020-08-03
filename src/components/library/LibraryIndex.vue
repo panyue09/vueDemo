@@ -1,6 +1,6 @@
 <template>
   <el-container>
-    <el-aside style="width: 200px;margin-top: 20px">
+    <el-aside style="width: 200px;">
       <switch></switch>
       <SideMenu @indexSelect="listByCategory" ref="sideMenu"></SideMenu>
     </el-aside>
@@ -47,7 +47,7 @@ export default {
   }
 
   .el-container {
-    height: 94%;
+    height: 91%;
     width: 100%;
   }
 </style>

@@ -6,7 +6,7 @@
     background-color="white"
     text-color="#222"
     active-text-color=lightblue
-    style="min-width: 1300px;height: 6%">
+    style="min-width: 1300px;height: 8%">
     <el-menu-item v-for="(item,i) in navList" :key="i" :index="item.name">
       {{ item.navItem }}
     </el-menu-item>
